@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars-Planets</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--Star Wars Logo -->
+    <div class="center-image">
+        <img src="images/logo.png" width="200" height="200">
+    </div>
+    <br><br><br>
+
+    <!-- Movie Slideshow -->
+    <div class="slideshow-container">
+
+        <div class="slideshow">
+          <div class="slide"><img src="images/movie1.png"></div>
+          <div class="slide"><img src="images/movie2.png"></div>
+          <div class="slide"><img src="images/movie3.png"></div>
+          <div class="slide"><img src="images/movie4.png"></div>
+        </div>
+
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+    </div>
+    <br><br><br>
+    
+    <!-- Master Planet Description -->  
+    <div class="master-container">
+        <center><img src="images/master.png.png" width="200" height="300" style="border-radius: 20px;"></center>
+        <center><p style="font-style: italic; font-size: x-large;" >"A planet can be described as a single organism, a living creature with a skeleton of stone and a heart of molten rock. The species that inhabit a planet, plant and animal alike, from microbe to megalossus, are the planet-creature's organs, internal symbionts, and parasites."<br>―Vergere to Jacen Solo, as an analogy to a Sh'rip Sh'pa</p></center>
+    </div>
+    <br><br><br>
+
+    <!--Planets -->
+    <div>
+        <center><img src="images/Planets in our Galaxy.png" width="800" height="80"></center>
+    </div>
+    <br><br>
+
+    <div id="planets-container" class="planet-card-container"> </div>
+      
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
