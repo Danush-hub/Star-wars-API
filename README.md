@@ -8,11 +8,11 @@ This website is designed to offer details about different planets featured in th
 
 ## Explore the Planets
 
-To explore the planets, simply visit our website [here](https://your-website-url.com).
+To explore the planets, simply visit our website [here]([https://your-website-url.com](https://danush-hub.github.io/Star-wars-API/)).
 
 ## View Residents
 
-Want to know who inhabits these planets? Check out our residents list [here](https://your-website-url.com/residents).
+Want to know who inhabits these planets? Check out our residents list [here]([https://your-website-url.com/residents](https://danush-hub.github.io/Star-wars-API/residents.html)https://danush-hub.github.io/Star-wars-API/residents.html).
 
 ## Technologies Used
 
